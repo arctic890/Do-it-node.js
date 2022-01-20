@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>memo test</title>
+    </head>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="/process/memo">
+            <h3>My memo</h3>
+            <hr/>
+            <table>
+                <tr>
+                    <td><labe>Writer</labe></td>
+                    <td><input type='text' name='writer'></td>
+                </tr>
+                <tr>
+                    <td><labe>Date</labe></td>
+                    <td><input type='text' name='date'></td>
+                </tr>
+                <tr>
+                    <td><labe>Memo</labe></td>
+                    <br><br>
+                    <td><input type='text' name='memo'></td>
+                </tr>
+                <tr>
+                    <td><labe>Image file</labe></td>
+                    <td><input type='file' name='image'></td>
+                </tr>
+            </table>
+            </table>
+            <input type="submit" value="Save" name="save">
+            <a href='/login.html'>Cancel</a>
+        </form>
+    </body>
+</html>
